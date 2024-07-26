@@ -1,7 +1,7 @@
 provider "newrelic" {
   account_id = var.newrelic_account_id
   api_key = var.newrelic_api_key
-  region = "US"
+  region = var.region
 }
 
 resource "newrelic_service_level" "browser_slo" {

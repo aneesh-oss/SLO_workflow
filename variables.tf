@@ -10,6 +10,10 @@ variable "newrelic_account_id" {
   type        = number
 }
 
+variable "region" {
+  description = "region"
+  type        = string
+}
 # Variable to define SLI and SLO configurations
 variable "browser_slis_slos" {
   description = "A map of SLI and SLO configurations for browser monitoring."
