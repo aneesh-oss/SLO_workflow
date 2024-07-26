@@ -1,5 +1,4 @@
-//newrelic_api_key    = "NRAK-2UW3K2FVUT559K0O3T1C9Q3GK4R"
-//newrelic_account_id = "4438265"
+
 
 browser_slis_slos = {
   "page_load_time" = {
