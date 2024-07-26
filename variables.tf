@@ -7,7 +7,7 @@ variable "newrelic_api_key" {
 # Variable to store the New Relic Account ID
 variable "newrelic_account_id" {
   description = "The New Relic account ID where the SLOs are created."
-  type        = string
+  type        = number
 }
 
 # Variable to define SLI and SLO configurations
